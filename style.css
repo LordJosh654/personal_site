@@ -1,0 +1,128 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00111d,#FFBF5E, #FFD391);
+    background-size: 180% 180%;
+    animation: gradient-animation 9s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.returntop{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 1000;
+}
+
+.dark-background {
+    background-color: #00111d;
+}
+
+.light-background {
+    background-color: #ECDCC8;
+}
+
+
+ .dark-txt {
+    color: #00111d;
+}
+
+.hero-background {
+    padding: 99px;
+}
+
+.about-top-pad {
+    padding-top: 100px;
+}
+
+
+.gelasio-header {
+  font-family: "Gelasio", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.noto-sans-font {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#about {
+    li {
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+        font-size: 20px !important;
+    }
+
+    h3 {
+        font-family: "Crimson Text", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 30px !important;
+    }
+
+    p{
+        font-size: 20px !important;
+    }
+}
+
+.transition-hr {
+    border: dotted #00111d 9px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.subhead {
+    font-size: 1.75rem;
+}
+
+#projects {
+
+ font-family: "Noto Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+font-variation-settings:
+     "wdth" 100;
+
+
+    img {
+        border-radius: 5%;
+    }
+
+    li{
+        font-size:20px !important;
+    }
+}
+
+.gold-txt {
+    color: #FFd391 !important;
+}
+
+.border-top {
+    border-color:#FFD391 !important;
+}

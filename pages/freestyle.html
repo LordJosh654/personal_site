@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body{
+        display:flex;
+        height:100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .blue{
+        background-color: #004592;
+    }
+    .red{
+        background-color:#e72f24;
+    }
+    .white{
+        background-color: #f0f1ec;
+    }
+    .black{
+        background-color: #232629;
+    }
+    .yellow{
+      background-color:#F9D01E;
+    }
+    .gridbox{
+        display:grid;
+        height:800px;
+        width:800px;
+        gap: 5px;
+        background-color: black;
+        grid-template-columns: 35px 75px 75px 70px 375px 15px 60px 60px ;
+        grid-template-rows: 60px 60px 80px 25px 45px 175px 185px 25px 85px 15px;
+    }
+    #yone{
+        grid-row:span 2;
+    }
+    #wone{
+        grid-column:span 2;
+        grid-row:span 2;
+    }
+    #wtwo{
+        grid-row:span 2;
+        grid-column:span 2;
+    }
+    #bone{
+        grid-row:span 2;
+    }
+    #wthree{
+        grid-row:span 2;
+    }
+    #wfour{
+        grid-row:span 4;
+        grid-column:span 2;
+    }
+    #rone{
+        grid-column:span 3;
+        grid-row:span 5;
+    }
+    #wfive{
+        grid-column:span 3;
+    }
+    #wsix{
+        grid-column: span 2;
+    }
+    #btwo{
+        grid-column:span 3;
+    }
+    #wseven{
+        grid-column:span 3;
+    }
+    #weight{
+        grid-column:span 2;
+        grid-row:span 2;
+    }
+    #wnine{
+        grid-column:span 8;
+    }
+    #ythree{
+        grid-row:span 2;
+        grid-column: span 4;
+    }
+    #wten{
+        grid-column:span 3;
+    }
+    #rthree{
+        grid-column: span 4;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="gridbox">
+        <div class="yellow" id="yone"></div>
+        <div class="white" id="wone"></div>
+        <div class="yellow" id="ytwo"></div>
+        <div class="white" id="wtwo"></div>
+        <div class="blue" id="bone"></div>
+        <div class="white" id="wthree"></div>
+        <div class="black" id="blone"></div>
+        <div class="white" id="wfour"></div>
+        <div class="red" id="rone"></div>
+        <div class="white" id="wfive"></div>
+        <div class="blue" id="btwo"></div>
+        <div class="white" id="wseven"></div>
+        <div class="white" id="weight"></div>
+        <div class="black" id="bltwo"></div>
+        <div class="white" id="wsix"></div>
+        <div class="red" id="rtwo"></div>
+        <div class="white" id="wnine"></div>
+        <div class="yellow" id="ythree"></div>
+        <div class="blue" id="bthree"></div>
+        <div class="white" id="wten"></div>
+        <div class="red" id="rthree"></div>
+    </div>
+</body>
+
+</html>
