@@ -84,11 +84,11 @@
 }
 
 .transition-hr {
-    border: dotted #00111d 9px;
+    border: dotted #FFD391 9px;
     border-bottom: none;
-    width: 10%;
-    margin: 100px auto;
-    opacity: 100%;
+    width: 6%;
+    margin: 200px auto;
+    opacity: 90%;
 }
 
 .crimson-text-regular {
@@ -112,11 +112,18 @@ font-variation-settings:
 
 
     img {
-        border-radius: 5%;
+        border-radius: 100%;
     }
 
-    li{
-        font-size:20px !important;
+    p {
+        font: size 20px !important;
+    }
+
+    button {
+        color: #FFD391; 
+        background-color: #00111d !important; 
+        font-size: 20px;
+        margin-left: 50px;
     }
 }
 
@@ -126,4 +133,17 @@ font-variation-settings:
 
 .border-top {
     border-color:#FFD391 !important;
+}
+
+.kalnia-glaze-font {
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.form-bg {
+    background-color: #ffd391;
+    border: 0px;
 }
