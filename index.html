@@ -16,13 +16,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Gelasio:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+  </head>
 
 <body>
 
     <!--returntotop-->
     <a href="#top">
-    <button type="button" class="btn btn-outline-secondary returntop">Return to top</button>
+    <button type="button" class="btn btn-outline-secondary returntop">Return to the top</button>
     </a>
 
     <!--navbar-->
@@ -57,6 +60,11 @@
             </div>
           </div>
     </section>
+
+    <!--Transition-->
+    <section class="light-background" style="margin: 0; padding: 10px;">
+      <hr class="transition-hr " style="margin-top: 100px auto; margin-bottom: 0px;"/>
+      </section>
 
     <!--about-->
     <section class="light-background about-top-pad" id="about">
@@ -111,35 +119,37 @@
             </div>
           </div>
           <div class="container px-4">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <h3 class="fw-bold mb-3 fs-4 text-body-emphasis d-inline" style="margin-bottom: 0 !important;">View My Full Resume Here:</h3>
             <a href="https://lordjosh654.github.io/resume/" target="_blank">
-                <button type="button" class="btn mx-5" style="color: #FFD391; background-color: #00111d !important;">Resume</button>
+                <button type="button" class="btn mx-5 justify-content-center" style="color: #FFD391; background-color: #00111d !important;">Resume</button>
             </a>
+            </div>
           </div>
     </section>
 
     <!--Transition-->
-    <section class="light-background" style="margin: 0; padding: 10px;">
-    <hr class="transition-hr "/>
+    <section class="light-background" style="margin: 0px !important; padding: 10px;">
+    <hr class="transition-hr"/>
     </section>
 
     <!--projects-->
     <section id="projects" class="light-background">
         <div class="container">
-            <h2 class="pb-2 crimson-text-regular fw-bold" style="font-size: 45px !important;">Projects</h2>
+            <h2 class="pb-2 crimson-text-regular fw-bold" style="font-size: 45px !important; margin-bottom: 50px;">Projects</h2>
         </div>
         <div class="album py-5">
-            <div class="container">
+            <div class="container"> 
               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
-                  <div class="card shadow-sm">
+                  <div class="card"style="background-color: #ECDCC8 !important; border: 0 !important;">
                     <img src="assets/mondrian.png" width="100%" height="225" alt="mondrianphoto">
                     <div class="card-body">
-                      <p class="card-text">A Piet Mondrian style created exclusively using CSS Grid.</p>
+                      <p class="card-text" style="font-size: 20px; margin: 50px;">A Piet Mondrian style painting created exclusively using CSS Grid.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                            <a href="pages/freestyle.html" target="_blank"> 
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" >Visit</button>
                             </a>
                         </div>
                       </div>
@@ -147,14 +157,14 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="assets/rock-paper-s.jpg" width="100%" height="225" alt="Rock-Paper-scissors">
+                  <div class="card"style="background-color: #ECDCC8 !important; border: 0 !important;">
+                    <img src="assets/tindogpic.png" width="100%" height="225" alt="TinDog">
                     <div class="card-body">
-                      <p class="card-text">A command line Rock-Paper-scissors game made with Python</p>
+                      <p class="card-text" style="font-size: 20px; margin: 50px;">A dog Tinder parody mock website created using Bootstrap.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <a>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Coming Soon</button>
+                            <a href="https://lordjosh654.github.io/tindog/" target="_blank">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
                           </a>
                         </div>
                       </div>
@@ -162,14 +172,14 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="assets/tindogpic.png" width="100%" height="225" alt="TinDog" style="border-radius: 5%;">
+                  <div class="card" style="background-color: #ECDCC8 !important; border: 0 !important;">
+                    <img src="assets/rock-paper-s.jpg" width="100%" height="225" alt="Rock-Paper-scissors">
                     <div class="card-body">
-                      <p class="card-text">A dog Tinder parody mock website created using Bootstrap.</p>
+                      <p class="card-text"style="font-size: 20px; margin: 50px;">A command line Rock-Paper-Scissors game made with Python</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <a href="https://lordjosh654.github.io/tindog/" target="_blank">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                            <a>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Coming Soon</button>
                           </a>
                         </div>
                       </div>
@@ -193,21 +203,21 @@
         </div>
         <div class="container">
         <form>
-            <div class="mb-3">
+            <div class="mb-3" >
                 <label for="name" class="form-label">Name</label>
-                <input type="name" class="form-control" id="name" aria-describedby="name">
+                <input type="name" class="form-control form-bg" id="name" aria-describedby="name">
               </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control form-bg" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
               <label for="phonenumber" class="form-label">Phone Number</label>
-              <input type="phonenumber" class="form-control" id="phonenumber">
+              <input type="phonenumber" class="form-control form-bg" id="phonenumber">
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
+                <textarea class="form-control form-bg" id="message" rows="3"></textarea>
               </div>
             <button type="submit" class="btn" style="color: #FFD391; background-color: #00111d !important;">Submit</button>
           </form>
